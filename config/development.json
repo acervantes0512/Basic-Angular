@@ -1,0 +1,196 @@
+{
+    "api": {
+        "basepath": "http://localhost:60316/api",
+        "endpoints": [{
+            "cargueMasivo": [{
+                    "group": "CargueArchivos",
+                    "name": "cargarContratos",
+                    "url": "/cargueMasivo/cargarContratos",
+                    "headers": []
+                },
+                {
+                    "group": "CargueArchivos",
+                    "name": "cargarProovedores",
+                    "url": "/cargueMasivo/cargarProveedores",
+                    "headers": []
+                },
+                {
+                    "group": "CargueArchivos",
+                    "name": "cargarCentrosCostos",
+                    "url": "/cargueMasivo/cargarCentrosCostos",
+                    "headers": []
+                },
+                {
+                    "group": "CargueArchivos",
+                    "name": "cargarNovedades",
+                    "url": "/cargueMasivo/cargarNovedades",
+                    "headers": []
+                }
+            ],
+            "cuentas": [{
+                    "name": "listarCuentas",
+                    "url": "/cuentas/obtenerConfCuentas",
+                    "headers": []
+                },
+                {
+                    "name": "listarCuentasPorNumero",
+                    "url": "/cuentas/obtenerConfCuentas?numCuenta=",
+                    "headers": []
+                },
+                {
+                    "name": "listarCuentasDescripcion",
+                    "url": "/cuentas/obtenerCuentas",
+                    "headers": []
+                },
+                {
+                    "name": "listarCuentasPorTipo",
+                    "url": "/cuentas/obtenerConfCuentas?tipoEvento=",
+                    "headers": []
+                },
+                {
+                    "name": "listarTipoEvento",
+                    "url": "/cuentas/obtenerTiposEvento",
+                    "headers": []
+                },
+                {
+                    "name": "listarTipoSubyacente",
+                    "url": "/cuentas/obtenerTiposSubyacente",
+                    "headers": []
+                },
+                {
+                    "group": "cuenta",
+                    "name": "adicionarCuenta",
+                    "url": "/cuentas/adicionarConfCuenta",
+                    "headers": []
+                },
+                {
+                    "name": "editarCuentas",
+                    "url": "/cuentas/editarConfCuenta",
+                    "headers": []
+                },
+                {
+                    "name": "eliminarConfCuenta",
+                    "url": "/cuentas/eliminarConfCuenta",
+                    "headers": []
+                },
+                {
+                    "name": "sincronizarCuentas",
+                    "url": "/cuentas/sincronizarCuentas",
+                    "headers": []
+                }
+            ],
+            "proveedor": [{
+                    "name": "listarProveedores",
+                    "url": "/proveedores/distribucionContratoProveedores",
+                    "headers": []
+                },
+                {
+                    "name": "listarProveedoresPorNombre",
+                    "url": "/proveedores/distribucionContratoProveedores?Nombre=",
+                    "headers": []
+                },
+                {
+                    "name": "listarProveedoresPorContrato",
+                    "url": "/proveedores/distribucionContratoProveedores?Contrato=",
+                    "headers": []
+                },
+                {
+                    "name": "desplegableProveedores",
+                    "url": "/proveedores/obtenerProveedores",
+                    "headers": []
+                },
+                {
+                    "name": "editarProveedores",
+                    "url": "/proveedores/editarDistribucionProveedor",
+                    "headers": []
+                },
+                {
+                    "name": "sincronizarProveedores",
+                    "url": "/proveedores/sincronizarProveedores",
+                    "headers": []
+                }
+            ],
+            "centros": [{
+                    "name": "listarCentroCostos",
+                    "url": "/costooperacion/distribucionCCCO",
+                    "headers": []
+                },
+                {
+                    "name": "listarCentroCostosPorNombre",
+                    "url": "/costooperacion/distribucionCCCO?Nombre=",
+                    "headers": []
+                },
+                {
+                    "name": "listarCentroCostosPorContrato",
+                    "url": "/costooperacion/distribucionCCCO?Contrato=",
+                    "headers": []
+                },
+                {
+                    "name": "desplegableCostos",
+                    "url": "/costooperacion/obtenerCentrosCosto?codCOperacion=",
+                    "headers": []
+                },
+                {
+                    "name": "desplegableCostosSinFiltro",
+                    "url": "/costooperacion/obtenerCentrosCosto",
+                    "headers": []
+                },
+                {
+                    "name": "desplegableOperaciones",
+                    "url": "/costooperacion/obtenerCentrosOperacion?codCCosto=",
+                    "headers": []
+                },
+                {
+                    "name": "desplegableOperacionesSinFiltro",
+                    "url": "/costooperacion/obtenerCentrosOperacion",
+                    "headers": []
+                },
+                {
+                    "name": "editarCentroCostos",
+                    "url": "/costooperacion/editarDistribucionCentrosCostos",
+                    "headers": []
+                },
+                {
+                    "name": "sincronizarCCCO",
+                    "url": "/costooperacion/sincronizarCcostoCoperacion",
+                    "headers": []
+                }
+            ],
+            "indicadores": [{
+                    "name": "listarIndicadores",
+                    "url": "/indicadores/obtenerIndicadores",
+                    "headers": []
+                },
+                {
+                    "name": "listarPorNombre",
+                    "url": "/indicadores/obtenerIndicadores?Nombre=",
+                    "headers": []
+                },
+                {
+                    "group": "indicadores",
+                    "name": "adicionarIndicadores",
+                    "url": "/indicadores/adicionarIndicador",
+                    "headers": []
+                },
+                {
+                    "name": "editarIndicadores",
+                    "url": "/indicadores/editarIndicador",
+                    "headers": []
+                },
+                {
+                    "name": "eliminarIndicadores",
+                    "url": "/indicadores/eliminarIndicador",
+                    "headers": []
+                }
+            ],
+            "name": "session",
+            "url": "/ValidarSesion",
+            "headers": []
+        }]
+    },
+    "paths": {
+        "images": "./assets/images",
+        "rutaLog": "/home/sftpniif/Desarrollo/NIIFLOG"
+    },
+    "debbuging": true
+}

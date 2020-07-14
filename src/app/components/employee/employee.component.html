@@ -1,0 +1,80 @@
+<div class="border">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">MAS Global Test</h1>
+            <p class="lead">List Employees by Alexander Cervantes.</p>
+        </div>
+    </div>
+
+    <div style="padding: 10px 50px 20px;">
+
+        <h3 style="text-align: center;">Searh Employees</h3>
+
+        <br>
+
+        <form #infoEmp="ngForm" (ngSubmit)="clickButton(infoEmp.value)">
+
+            <div class="container" style="width: 100%;">
+                <br>
+
+                <tr>
+                    <div>
+                        <td>
+                            <h4>Id Employee:</h4>
+                        </td>
+
+                        <td><input class="form-control" style="margin-left: 10%;" name="idEmpleado" type="text" ngModel></td>
+
+
+                        <td><input style="margin-left: 30%; margin-bottom:5px;;" class="btn btn-primary" type="submit" value="get Employees"></td>
+
+                    </div>
+
+
+                </tr>
+
+            </div>
+
+        </form>
+
+        <br>
+        <br>
+
+        <div style="text-align: center;">
+            <table class="table" style="padding: 1em;">
+                <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">contractTypeName</th>
+                        <th scope="col">roleId</th>
+                        <th scope="col">roleName</th>
+                        <th scope="col">roleDescription</th>
+                        <th scope="col">hourlySalary</th>
+                        <th scope="col">monthlySalary</th>
+                        <th scope="col">anualSalary</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let emp of rta">
+                        <th scope="row">{{emp.id}}</th>
+                        <td>{{emp.name}}</td>
+                        <td>{{emp.contractTypeName}}</td>
+                        <td>{{emp.roleId}}</td>
+                        <td>{{emp.roleName}}</td>
+                        <td>{{emp.roleDescription}}</td>
+                        <td>{{emp.hourlySalary}}</td>
+                        <td>{{emp.monthlySalary}}</td>
+                        <td>{{emp.anualSalary}}</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <div style="text-align: center;" *ngIf="rta.length === 0">No records found ..</div>
+
+        <br>
+    </div>
+</div>

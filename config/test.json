@@ -1,0 +1,22 @@
+{
+  "api": {
+    "basepath": "http://localhost:53030/api",
+    "endpoints": [{
+        "utils": [{
+          "name": "listarGruposCorreo",
+          "url": "/utils/correos/getListarGruposCorreo",
+          "headers": []
+        }]
+      },
+      {
+        "name": "session",
+        "url": "/ValidarSesion",
+        "headers": []
+      }
+    ]
+  },
+  "paths": {
+    "images": "./assets/images"
+  },
+  "debbuging": true
+}
