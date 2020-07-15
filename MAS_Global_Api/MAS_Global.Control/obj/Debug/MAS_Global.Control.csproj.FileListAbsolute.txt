@@ -1,0 +1,16 @@
+C:\Users\acervantesc\Documents\Documentos Personales\MAS Global\MAS_Global.Control\MAS_Global.Control\bin\Debug\MAS_Global.Control.dll
+C:\Users\acervantesc\Documents\Documentos Personales\MAS Global\MAS_Global.Control\MAS_Global.Control\bin\Debug\MAS_Global.Control.pdb
+C:\Users\acervantesc\Documents\Documentos Personales\MAS Global\MAS_Global.Control\MAS_Global.Control\bin\Debug\JsonSubTypes.dll
+C:\Users\acervantesc\Documents\Documentos Personales\MAS Global\MAS_Global.Control\MAS_Global.Control\bin\Debug\MAS_Global.Datos.dll
+C:\Users\acervantesc\Documents\Documentos Personales\MAS Global\MAS_Global.Control\MAS_Global.Control\bin\Debug\MAS_Global.Entidad.dll
+C:\Users\acervantesc\Documents\Documentos Personales\MAS Global\MAS_Global.Control\MAS_Global.Control\bin\Debug\MAS_Global.Util.dll
+C:\Users\acervantesc\Documents\Documentos Personales\MAS Global\MAS_Global.Control\MAS_Global.Control\bin\Debug\Newtonsoft.Json.dll
+C:\Users\acervantesc\Documents\Documentos Personales\MAS Global\MAS_Global.Control\MAS_Global.Control\bin\Debug\MAS_Global.Datos.pdb
+C:\Users\acervantesc\Documents\Documentos Personales\MAS Global\MAS_Global.Control\MAS_Global.Control\bin\Debug\MAS_Global.Entidad.pdb
+C:\Users\acervantesc\Documents\Documentos Personales\MAS Global\MAS_Global.Control\MAS_Global.Control\bin\Debug\MAS_Global.Util.pdb
+C:\Users\acervantesc\Documents\Documentos Personales\MAS Global\MAS_Global.Control\MAS_Global.Control\bin\Debug\Newtonsoft.Json.xml
+C:\Users\acervantesc\Documents\Documentos Personales\MAS Global\MAS_Global.Control\MAS_Global.Control\obj\Debug\MAS_Global.Control.csprojAssemblyReference.cache
+C:\Users\acervantesc\Documents\Documentos Personales\MAS Global\MAS_Global.Control\MAS_Global.Control\obj\Debug\MAS_Global.Control.csproj.CoreCompileInputs.cache
+C:\Users\acervantesc\Documents\Documentos Personales\MAS Global\MAS_Global.Control\MAS_Global.Control\obj\Debug\MAS_Global.Control.csproj.CopyComplete
+C:\Users\acervantesc\Documents\Documentos Personales\MAS Global\MAS_Global.Control\MAS_Global.Control\obj\Debug\MAS_Global.Control.dll
+C:\Users\acervantesc\Documents\Documentos Personales\MAS Global\MAS_Global.Control\MAS_Global.Control\obj\Debug\MAS_Global.Control.pdb

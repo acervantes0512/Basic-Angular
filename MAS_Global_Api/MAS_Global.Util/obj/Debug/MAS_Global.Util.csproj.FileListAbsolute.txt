@@ -1,0 +1,8 @@
+C:\Users\acervantesc\Documents\Documentos Personales\MAS Global\MAS_Global.Control\MAS_Global.Util\bin\Debug\MAS_Global.Util.dll
+C:\Users\acervantesc\Documents\Documentos Personales\MAS Global\MAS_Global.Control\MAS_Global.Util\bin\Debug\MAS_Global.Util.pdb
+C:\Users\acervantesc\Documents\Documentos Personales\MAS Global\MAS_Global.Control\MAS_Global.Util\bin\Debug\Newtonsoft.Json.dll
+C:\Users\acervantesc\Documents\Documentos Personales\MAS Global\MAS_Global.Control\MAS_Global.Util\bin\Debug\Newtonsoft.Json.xml
+C:\Users\acervantesc\Documents\Documentos Personales\MAS Global\MAS_Global.Control\MAS_Global.Util\obj\Debug\MAS_Global.Util.csproj.CoreCompileInputs.cache
+C:\Users\acervantesc\Documents\Documentos Personales\MAS Global\MAS_Global.Control\MAS_Global.Util\obj\Debug\MAS_Global.Util.csproj.CopyComplete
+C:\Users\acervantesc\Documents\Documentos Personales\MAS Global\MAS_Global.Control\MAS_Global.Util\obj\Debug\MAS_Global.Util.dll
+C:\Users\acervantesc\Documents\Documentos Personales\MAS Global\MAS_Global.Control\MAS_Global.Util\obj\Debug\MAS_Global.Util.pdb
